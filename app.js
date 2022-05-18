@@ -9,7 +9,7 @@ const blogRoutes = require('./routes/blogRoutes');
 const app = express();
 
 // connect to MongoDB
-const dbURI = 'mongodb+srv://netninja:test1234@nodetuts.grbe0.mongodb.net/node-tuts?retryWrites=true&w=majority';
+const dbURI = ''; // deleted dbURL for security reasons; can be found on local repo
 mongoose.connect(dbURI)                     // async function return a promise after connecting
     .then((result) => {
         app.listen(3000);                   // we want our app to start listening to requests only after
