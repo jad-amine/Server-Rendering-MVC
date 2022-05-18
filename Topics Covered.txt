@@ -1,0 +1,24 @@
+node global object
+require
+module.export = variable (make available to another script)
+fs filesystem (read write files) (sync and async)
+stream and buffer (reading and writting and piping content)
+localhost = (127.0.0.1) & port number = 8080 
+node server
+request and response objects (headers)
+routing 
+status codes (200 ok 304 cached 404 client-error 500 server-error)
+redirecting 
+404 pages
+npm (3rd party packages)
+express framework   (.get route-handler/ .use middleware)
+package.json --> npm init  (create file that state dependencies and auto download them(npm i))
+nodemon (live reload the server)
+ejs view engine (templates) = html + js  <%= %>
+middleware (functions that might catch requests)
+server-side rendering
+partials  (reusable piece of html/other templates)
+next() (function to guide express requests to the next middleware)
+static public middleware (make files public to the front end (css/img))
+mongoose (handle mongodb interaction)
+schemas & models
